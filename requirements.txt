@@ -1,3 +1,14 @@
+# Core external libraries (non-built-in)
 pandas>=1.5.0
 matplotlib>=3.6.0
 numpy>=1.24.0
+
+# Note: The following dependencies are automatically installed with the above:
+# - python-dateutil (required by pandas)
+# - pytz (required by pandas)
+# - pillow (required by matplotlib for image support)
+# - kiwisolver (required by matplotlib)
+# - pyparsing (required by matplotlib)
+#
+# You only need to install the three packages above. pip will automatically
+# install all their dependencies.
